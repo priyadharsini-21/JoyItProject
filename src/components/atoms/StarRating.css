@@ -1,0 +1,21 @@
+/* StarRating.css */
+.star {
+  color: #ffd700; /* Set color to golden */
+}
+
+.full {
+  color: #ffd700; /* Set color to golden */
+}
+
+.half {
+  color: #ffd700; /* Set color to golden */
+  position: relative;
+  display: inline-block;
+}
+
+.half:before {
+  content: "\00bd"; /* Unicode character for half star */
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
